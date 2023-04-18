@@ -15,7 +15,7 @@ To import: Training Event
 1 - Ensure the template is followed
 2 - by Default the training sheet will be processed, To run workshop, put the record in training sheet (> python importTrainees.py)
 3 - To run workshop, put the record in workshop sheet (> python importTrainees.py --tei_withevents workshop)
-4 - To delete, put the record in activity_to_delete sheet (> python importTrainees.py --activity_to_delete delete)
+4 - To delete, put the record in activity_to_delete sheet (> python importTrainees.py --activity_to_delete activity_to_delete)
 
 '''
 
