@@ -12,6 +12,7 @@ Description: This script import participants into DHIS2
 
 Usage:
 To import: Training Event
+Note: Ensure that the Event Name ('datavalue:Event Name:UfMZ6XN7PS7') exist in oprion set ('Event Name')
 1 - Ensure the template is followed
 2 - by Default the training sheet will be processed, To run workshop, put the record in training sheet (> python importTrainees.py)
 3 - To run workshop, put the record in workshop sheet (> python importTrainees.py --tei_withevents workshop)
